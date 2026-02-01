@@ -78,7 +78,7 @@ export default function ValentinePage() {
           ))}
         </div>
         <h1 className={s.title}>
-          Do you want to be my Valentine&apos;s Day?
+          Will you be my Valentine?
         </h1>
 
         <div className={s.buttonsWrapper}>
