@@ -102,7 +102,7 @@ export default function ValentinePage() {
             }}
             style={notStyle}
           >
-            NOT
+            NO
           </button>
         </div>
       </div>
@@ -121,7 +121,7 @@ export default function ValentinePage() {
               playsInline
               className={s.fullscreenVideo}
             />
-            <p className={s.thanksText}>Thanks to Accept the request</p>
+            <p className={s.thanksText}>Thanks for accepting</p>
             <button className={s.closeBtn} onClick={handleVideoClose}>
               ✕
             </button>
