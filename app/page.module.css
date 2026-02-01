@@ -6,6 +6,45 @@
   justify-content: center;
   padding: 2rem;
   position: relative;
+  overflow: hidden;
+}
+
+.decorations {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.decoItem {
+  position: absolute;
+  opacity: 0.7;
+  filter: drop-shadow(0 2px 4px rgba(199, 21, 133, 0.15));
+  animation: float 6s ease-in-out infinite;
+}
+
+.decoItem:nth-child(odd) {
+  animation-delay: -2s;
+}
+
+.decoItem:nth-child(3n) {
+  animation-delay: -4s;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(3deg);
+  }
+}
+
+.title,
+.buttonsWrapper {
+  position: relative;
+  z-index: 1;
 }
 
 .title {
