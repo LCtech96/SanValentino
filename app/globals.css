@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ffe4ec 0%, #ffc8dd 25%, #ffb3d9 50%, #ff9ecd 75%, #ff85c1 100%);
+  background-attachment: fixed;
+}
